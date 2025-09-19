@@ -1,0 +1,184 @@
+:root{
+    --main-theme:#0d6b68
+}
+header{
+    background-image: url(../img/banners/hero-bg.jpg);
+}
+
+
+/********************* main nav bar **********************/
+.navbar-brand .main-logo-wrapper{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+.nav-item .nav-link{
+    font-weight: 600;
+    text-align: center;
+    font-size: large;
+    margin-right: 1rem;
+}
+/******************************** hero section ********************/
+.hero-carousel-wrapper{
+    border: 55px solid var(--main-theme);
+    
+}
+
+
+.hero-heading h1
+{
+    font-size: 5rem !important;
+}
+
+.hero-heading h1 span{
+    color: var(--main-theme);
+}
+.feature-content{
+    border: 3px solid var(--main-theme);
+    margin-block: 1rem;
+}
+.feature-content i {
+    color: var(--main-theme);
+    margin-block:0.5rem ;
+}
+
+
+
+/********************************************* mian: history section***********************/
+
+
+.award-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: .5rem 1rem; /* same spacing as mb-2 */
+}
+
+.award-list li h6 {
+  margin: 0;
+}
+
+
+
+.history-img-wrapper{
+    width: 40vh;
+    height: auto;
+}
+.history-img-wrapper img{
+    width: 100%;
+}
+.history-content{
+    margin-block: 2rem;
+}
+.history-content h2{
+    font-size: 1.5rem;
+
+}
+   
+.history-content span{
+    color: var(--main-theme);
+    text-transform: uppercase;
+    background-color: rgba(85, 107, 47, 0.233);
+
+}
+
+/* award section */
+
+.award h6 i{
+    color: var(--main-theme);
+}
+
+/* socail section */
+.btn-custom{
+    background-color: var(--main-theme);
+    color: white;
+    transition: all 1s ease;
+    
+}
+
+.btn-custom:hover{
+    background-color:rgba(0, 100, 0, 0.51);
+    color: white;
+    transition: all 1s linear;
+}
+.social{
+    display: flex;
+    gap: 1rem;
+}
+
+.social-icon-bg{
+    border: 2px solid var(--main-theme);
+    padding: 8px;
+    color: var(--main-theme);
+}
+.social-icon-bg:hover{
+    padding: 8px;
+    background-color: var(--main-theme);
+    color: white;
+    transition: all 1s ease;
+}
+
+/* *************************************section About************************************ */
+
+
+.about h2 span {
+  color: var(--main-theme);
+   background-color:rgba(0, 128, 0, 0.274);
+}
+.about-content{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.about-content i{
+    font-size: 4.3rem;
+    color: var(--main-theme);
+}
+.about .col-lg-3{
+    margin-left: 8px;
+    margin-block: 1rem;
+}
+
+/* *******************************Projects ****************************** */
+
+.projects-left-sec{
+    background-color: var(--main-theme);
+    color: white;
+    padding: 50px 10px ;
+}
+.projects-left-sec h2
+{ position: relative;
+    top: 10%;
+    left: 20%;
+}
+
+.projects-left-sec h3{
+    position: relative;
+    left: 15%;
+}
+.projects-left-sec h2 span{
+    background-color: rgba(255, 255, 255, 0.363);
+}
+.projects-left-sec h3 span{
+    font-size: 3rem;
+}
+
+.project-img{
+    position: relative;
+}
+.project-img h4{
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+    color: white;
+}
+.project-img {
+  position: relative;
+  overflow: hidden;
+} 
+
+.project-img img {
+  transition: transform 0.5s ease; /* smooth animation */
+}
+
+.project-img:hover img {
+  transform: scale(1.1); /* zoom in */
+}
